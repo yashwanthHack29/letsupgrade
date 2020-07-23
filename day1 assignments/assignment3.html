@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>viewing date in sevral formats</h2>
+    <script>
+        var today = new Date()
+        var dd = today.getDate()
+        var mm = today.getMonth() + 1;
+        var yyyy = today.getFullYear();
+        var dd, yy, mm
+        today = mm + '-' + dd + '-' + yyyy;
+        document.write(today);
+
+        today = mm + '/' + dd + '/' + yyyy;
+        document.write(today);
+        today = dd + '-' + mm + '-' + yyyy;
+        document.write(today);
+        today = dd + '/' + mm + '/' + yyyy;
+        document.write(today);
+    </script>
+</body>
+
+</html>

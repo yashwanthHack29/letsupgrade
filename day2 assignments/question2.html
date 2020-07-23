@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>question 2</title>
+</head>
+<body>
+    <h1>differences between var let and const</h1>
+    <script>
+        //var has global scope it applies in whole document
+        //while "let" has a limited scope between { } these brackets represents a pile of code 
+        //const is a constant variable it cannot be changed 
+        //in the modern javascript var is not used and instead of var let and const are used // var 
+var name ="Yash";
+// number 
+var age ="17";
+// Boolean 
+var canFly = false;
+// Array
+var languages =['hindi,english,telugu']
+// Object
+var friends ={
+    name:"hey",
+    hobby:"programming",
+}
+console.log(canFly)
+// var a = 10;
+
+var a = null;
+console.log(a);
+
+
+// let 
+{
+    let city;
+    let name="donga";
+
+    console.log(name);
+}
+console.log("the name of the character is",name);
+
+
+const _fruits=["mango","apple"]
+console.log(_fruits)
+_fruits.push('banana');
+console.log(_fruits)
+
+    </script>
+</body>
+</html>
